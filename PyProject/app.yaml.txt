@@ -1,0 +1,10 @@
+ app.yaml (config. file) 
+ 
+application:  PyProject
+version:  1 
+runtime:  python 
+api_version:  1 
+ 
+handlers: 
+ -  url:  /.* 
+    script:  compare.py 
